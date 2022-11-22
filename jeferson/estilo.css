@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #DFC7AD;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.marca__header{
+    width: 80%;
+    height: 80px;
+    background: linear-gradient(to right, #A9B59F, #E58934 );
+    text-align: center;
+    color: aqua;
+}
+h3{
+    color: #658934;
+}
+.img-fluid{
+    border-radius: 20px;
+}
+.principal{
+    margin: auto;
+    margin-top: 20px;
+}
+.sobre--discricao{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+}
+.sobre ul li{
+    color: #9DAA7E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre--paragrafo{
+    color: #658934;
+}
+button {
+    position: fixed;
+    right: 140px;
+    bottom: 20px;
+    border: 1px #e58934 dotted;
+    border-radius: 50px;
+}
